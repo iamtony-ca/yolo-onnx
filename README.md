@@ -244,7 +244,8 @@ python3 train.py
 
 
 ### export pt to onnx
+```bash
 yolo export model=/root/datasets/runs/detect/zed_person_det/run_26m/weights/best.pt format=onnx simplify=True dynamic=False imgsz=640
-
+```
 
 
