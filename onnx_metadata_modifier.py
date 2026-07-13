@@ -1,3 +1,13 @@
+"""
+pip install onnx onnxruntime
+
+python3 -m venv .venv
+source .venv/bin/activate
+pip install onnx onnxruntime
+
+"""
+
+
 import onnx
 
 # 가능하면 손상 위험 없는 백업본에서 작업하세요
